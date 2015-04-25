@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe Zebra, type: :model do
-  describe "in the zoo" do
   	it "invalid without weight attribute" do
 		expect(subject).to have_attribute(:weight)
   	end
@@ -10,5 +9,4 @@ RSpec.describe Zebra, type: :model do
 		expect(zebra.weight).to   eq(321)
 		expect(zebra.weight).not_to be_nil
   	end
-  end
 end

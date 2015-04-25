@@ -1,0 +1,2 @@
+module GiraffeHelper
+end

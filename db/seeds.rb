@@ -27,3 +27,25 @@ zebras = Zebra.create [
 	{weight: 305},
 	{weight: 168},
 ]
+
+turtles = Turtle.create [
+	{status: true},
+	{status: false},
+	{status: true},
+	{status: false},
+	{status: false},
+	{status: true},
+	{status: true},
+	{status: false},
+]
+
+giraffes = Giraffe.create [
+	{height: 320},
+	{height: 430},
+	{height: 550},
+	{height: 220},
+	{height: 444},
+	{height: 180},
+	{height: 345},
+	{height: 423},
+]
